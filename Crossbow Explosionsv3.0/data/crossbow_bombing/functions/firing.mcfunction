@@ -1,0 +1,1 @@
+execute as @s at @s run summon minecraft:fireball ^ ^ ^ {Tags:["unorientated","impact_uncalibrated"],ExplosionPower:5,Invulnerable:1b}

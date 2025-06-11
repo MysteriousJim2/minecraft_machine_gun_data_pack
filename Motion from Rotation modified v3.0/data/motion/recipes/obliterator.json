@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nRn",
+        "CDS",
+        "nnn"
+    ],
+    "key": {
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "R": {
+            "item": "minecraft:repeater"
+        },
+        "C": {
+            "item": "minecraft:crossbow"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        },
+        "S": {
+            "item": "minecraft:shulker_box"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

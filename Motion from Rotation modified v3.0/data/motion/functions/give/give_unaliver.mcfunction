@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_data={UnAliver:1b},custom_name='{"text":"UnAliving Assistant","color":"gold","bold":false,"italic": false}'] 1
