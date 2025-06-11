@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"Unlocked": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "motion:unaliving_assistant"
+			}
+		}
+	},
+	"rewards": {
+		"function": "motion:rewards/unaliving_assistant_reward"
+	}
+}

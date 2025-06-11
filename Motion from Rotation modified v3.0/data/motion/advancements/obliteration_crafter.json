@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"Unlocked": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "motion:obliterator"
+			}
+		}
+	},
+	"rewards": {
+		"function": "motion:rewards/obliterator_reward"
+	}
+}
