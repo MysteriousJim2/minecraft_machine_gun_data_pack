@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_data={Obliterator:1b},custom_name={"text":"[Obliterator]","color":"dark_red","bold":true}] 1

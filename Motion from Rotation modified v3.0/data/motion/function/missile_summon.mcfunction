@@ -1,0 +1,2 @@
+$summon minecraft:arrow ^ ^ ^1.5 {Rotation:[$(yaw),$(pitch)],Tags:["motion_bullet","unorientated","explosive","unowned"]}
+##summon minecraft:arrow ^ ^ ^0.5 {Tags:["motion_bullet","unorientated","explosive","unowned"]}

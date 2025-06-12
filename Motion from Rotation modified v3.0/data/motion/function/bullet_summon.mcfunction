@@ -1,0 +1,1 @@
+$summon minecraft:arrow ^ ^ ^0.5 {Rotation:[$(yaw),$(pitch)],Tags:["motion_bullet","unorientated","unowned"],pickup:1b,life:1100,PierceLevel:4b}

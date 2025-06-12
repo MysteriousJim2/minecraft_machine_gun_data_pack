@@ -2,7 +2,13 @@
 #summon minecraft:fireball ^ ^1 ^0.8 {Tags:["motion_projectile","friendly_fire"],ExplosionPower:2}
 #summon minecraft:tnt ^ ^1 ^0.8 {Tags:["motion_projectile","friendly_fire"],Fuse:80}
 #summon minecraft:pig ^ ^1 ^0.8 {Tags:["motion_projectile","friendly_fire"]}
-summon minecraft:arrow ^ ^ ^0.5 {Tags:["motion_bullet","unorientated","unowned"],pickup:1b,life:1100,PierceLevel:4b}
+
+execute store result storage motion:player_rotation yaw float -0.0001 run data get entity @s Rotation[0] 10000
+execute store result storage motion:player_rotation pitch float -0.0001 run data get entity @s Rotation[1] 10000
+
+
+
+execute as @s at @s rotated as @s run function motion:bullet_summon with storage motion:player_rotation
 clear @s minecraft:arrow 1
 
 #playsound minecraft:custom.gunshot master @a ~ ~ ~ 1 1.2
