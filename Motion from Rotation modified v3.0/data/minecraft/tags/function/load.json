@@ -1,5 +1,6 @@
 {
 	"values": [
-	"motion:load"
+	"motion:load",
+	"crossbow_bombing:init"
 	]
 }
