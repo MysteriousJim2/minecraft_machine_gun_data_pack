@@ -2,6 +2,12 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
+        "minecraft:nether_star",
+        "minecraft:piglin_head",
+        "minecraft:enchanted_golden_apple",
+        "minecraft:black_shulker_box",
+        "minecraft:repeater",
+        "minecraft:netherite_ingot",
         "minecraft:crossbow"
     ],
   "result": {
