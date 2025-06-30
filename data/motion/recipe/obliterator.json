@@ -13,9 +13,9 @@
   "result": {
     "id": "minecraft:carrot_on_a_stick",
     "components": {
-     "minecraft:custom_data": {"Obliterator":true},
+     "minecraft:custom_data": {"obliterator":true},
      "minecraft:custom_name": {
-      "text":"[Obliterator]",
+      "text":"[obliterator]",
       "color":"dark_red",
       "bold":true
      }
