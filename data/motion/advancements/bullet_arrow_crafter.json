@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"Unlocked": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "motion:bullet_arrow"
+			}
+		}
+	},
+	"rewards": {
+		"function": "motion:rewards/bullet_arrow_reward"
+	}
+}

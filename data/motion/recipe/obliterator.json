@@ -1,29 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "nRn",
-        "CDS",
-        "nnn"
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:nether_star",
+        "minecraft:piglin_head",
+        "minecraft:enchanted_golden_apple",
+        "minecraft:black_shulker_box",
+        "minecraft:repeater",
+        "minecraft:goat_horn",
+        "minecraft:crossbow"
     ],
-    "key": {
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
-        "R": {
-            "item": "minecraft:repeater"
-        },
-        "C": {
-            "item": "minecraft:crossbow"
-        },
-        "D": {
-            "item": "minecraft:dragon_egg"
-        },
-        "S": {
-            "item": "minecraft:shulker_box"
-        }
-    },
-    "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+     "minecraft:custom_data": {"Obliterator":true},
+     "minecraft:custom_name": {
+      "text":"[Obliterator]",
+      "color":"dark_red",
+      "bold":true
+     }
     }
+  }
 }

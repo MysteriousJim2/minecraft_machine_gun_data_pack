@@ -1,29 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "nRn",
-        "CNS",
-        "nnn"
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:crossbow"
     ],
-    "key": {
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
-        "R": {
-            "item": "minecraft:repeater"
-        },
-        "C": {
-            "item": "minecraft:crossbow"
-        },
-        "N": {
-            "item": "minecraft:nether_star"
-        },
-        "S": {
-            "item": "minecraft:shulker_box"
-        }
-    },
-    "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+     "minecraft:custom_data": {"UnAliver":true},
+     "minecraft:custom_name": {
+      "text":"[How many holes does a human have]",
+      "color":"gold",
+      "bold":true,
+      "italic":false
+     }
     }
+  }
 }
